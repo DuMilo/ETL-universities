@@ -34,4 +34,16 @@ Pipeline ETL (Extract, Transform, Load) que extrai dados de universidades de dif
 * **Linguagem**: Python 3.12
 * **Bibliotecas**: Pandas, requests (Consumo de API)
 * **Banco de Dados**: SQLite
-* **Ambiente alternativo**: Jupyter Notebook 
+* **Ambiente alternativo**: Jupyter Notebook
+
+
+## Integrantes da Equipe
+
+<ul>
+<li>Milo Moreira e Castro <a href="https://github.com/DuMilo">[@DuMilo]</a></li> 
+<li>Sofia Travassos Bezerra <a href="https://github.com/SofiaTravassos">[@SofiaTravassos]</a></li>
+</ul>
+<div>
+  <img src="https://avatars.githubusercontent.com/u/132294227?v=4" width=100px height=100px>
+  <img src="https://avatars.githubusercontent.com/u/164456593?v=4" width=100px height=100px>  
+</div>
