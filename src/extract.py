@@ -1,14 +1,26 @@
 import requests
 
-class Extract():
-    
+
+class Extract:
+
     def __init__(self):
         pass
 
-    def extract_country(self, pais: str):
+    def extract_country(self, pais: str) -> list[dict]:
+        """
+        Método responsável por acessar a
+        API de universidades e retornar uma lista de dicionários
+        contendo as informações das universidades do país especificado.
 
-        pais_url = pais.title().replace(' ', '+')
-        
+        Args:
+            pais (str)
+
+        Returns:
+            list[dict]
+        """
+
+        pais_url = pais.title().replace(" ", "+")
+
         url = f"http://universities.hipolabs.com/search?country={pais_url}"
 
         response = requests.get(url)
