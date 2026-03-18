@@ -15,7 +15,7 @@ Pipeline ETL (Extract, Transform, Load) que extrai dados de universidades de dif
     └── load.py               # Classe para carregamento em SQLite
 ```
 
-## Como Excutar o Projeto
+## Como Executar o Projeto
 
 1. **Instalar dependências:**
    ```
